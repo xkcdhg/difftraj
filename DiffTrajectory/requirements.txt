@@ -1,0 +1,16 @@
+# Core (verified working in this sandbox, CPU-only, Python 3.12):
+torch>=2.2          # on your GPU machine: follow https://pytorch.org/get-started/locally/
+                     # to get a CUDA build matching your driver, instead of plain `pip install torch`
+numpy
+scipy
+pandas
+pyyaml
+easydict
+tqdm
+
+# Data / eval utilities (needed once we wire up a specific dataset)
+matplotlib           # visualization (Fig. 4-7 style plots)
+scikit-learn
+
+# Optional, only if you want TensorBoard-style training curves
+tensorboard
